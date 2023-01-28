@@ -1,0 +1,47 @@
+@media screen and (min-width: 1200px) {
+  .advantages {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .container {
+    width: 1164px;
+  }
+  .list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+  }
+  .list-element {
+    width: 264px;
+  }
+  .list-text {
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .list-element::before {
+    display: block;
+    content: "";
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 8px;
+  }
+  .icon-antenna::before {
+    background-image: url("../images/antenna.svg");
+  }
+  .icon-clock::before {
+    background-image: url("../images/clock.svg");
+  }
+  .icon-diagram::before {
+    background-image: url("../images/diagram.svg");
+  }
+  .icon-astronaut::before {
+    background-image: url("../images/astronaut.svg");
+  }
+  .team .container {
+    width: 1164px;
+  }
+}

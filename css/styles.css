@@ -442,7 +442,7 @@ ol {
 }
 
 .footer-text {
-  align-items: center;
+  /* align-items: center; */
   text-align: left;
   margin: 0 auto;
   margin-top: 16px;

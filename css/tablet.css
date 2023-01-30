@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    /* outline: 2px solid red; */
   }
   .team .container {
     width: 582px;
@@ -96,6 +97,35 @@
     display: flex;
     gap: 40px;
   }
+  /* ========== FOOTER ========== */
+  .footer-block-top {
+    display: flex;
+  }
+  .footer-block-logo {
+    text-align: left;
+    margin-right: 24px;
+    margin-left: 94px;
+  }
+  .footer .logo {
+    margin-bottom: 16px;
+  }
+  .footer-text {
+    margin: 0px;
+  }
+  .footer-media {
+    text-align: left;
+  }
+  .media-list {
+    justify-content: start;
+  }
+  .footer-form {
+    text-align: left;
+    margin-left: 94px;
+  }
+  .email-input {
+    width: 264px;
+  }
+  /* ========== /FOOTER ========== */
 }
 @media screen and (max-width: 767px) {
   .header .menu {

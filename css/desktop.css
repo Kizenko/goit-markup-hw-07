@@ -3,6 +3,7 @@
   }
   .container {
     width: 1164px;
+    /* outline: 2px solid red; */
   }
   .list-title {
     font-weight: 500;
@@ -57,4 +58,26 @@
   .services {
     display: block;
   }
+  /* FOOTER */
+  .footer .container {
+    display: flex;
+  }
+  .footer-block-logo {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer-media {
+    margin-left: 120px;
+  }
+  .footer-form {
+    margin-left: 80px;
+  }
+  .btn-wrap {
+    display: flex;
+  }
+  .email-input {
+    margin: 0;
+  }
+
+  /* / FOOTER */
 }

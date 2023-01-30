@@ -23,7 +23,7 @@
 
   <body>
     <!--header-->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container main-nav">
         <nav class="nav">
           <a class="logo link" href="./index.html">
@@ -51,18 +51,23 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu-btn-open" data-menu-open>
+          <svg class="menu-btn-icon" width="32" height="32">
+            <use href="/./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
-    <main> -->
+    <main>
       <!--hero-->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!--advantages-->
       <section class="advantages">
         <div class="container">
@@ -101,7 +106,7 @@
       </section>
 
       <!--img list-->
-      <!-- <section class="img">
+      <section class="services">
         <div class="container">
           <h2 class="img-title">What are we doing</h2>
           <ul class="img-list list">
@@ -131,7 +136,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--team-->
       <section class="team">
         <div class="container">
@@ -362,7 +367,7 @@
       <!--/Customers-->
     </main>
     <!--footer-->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div>
           <a class="logo link" href="./index.html">
@@ -418,7 +423,7 @@
           </div>
         </form>
       </div>
-    </footer> -->
+    </footer>
     <!--OVERLAY-->
     <!-- <div class="overlay is-hidden" data-modal>
       <div class="modal">
@@ -496,7 +501,72 @@
         </form>
       </div>
     </div> -->
+    <div class="mob-menu is-hidden" data-menu>
+      <div class="menu-container">
+        <div class="mob-menu-top">
+          <button type="button" class="menu-btn-close" data-menu-close>
+            <svg class="menu-btn-icon" width="8" height="8">
+              <use href="/./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="menu list">
+            <li class="item">
+              <a class="menu-item link current" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="menu-item link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item"><a class="menu-item link" href="">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="mob-menu-bottom">
+          <ul class="contact-menu list">
+            <li>
+              <a class="contact-tel link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="contact-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="header-social-list list">
+            <li class="header-social-list-item">
+              <a href="" class="header-social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-list-item">
+              <a href="" class="header-social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-list-item">
+              <a href="" class="header-social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-list-item">
+              <a href="" class="header-social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <!--SCRIPT-->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

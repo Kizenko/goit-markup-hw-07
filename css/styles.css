@@ -243,7 +243,7 @@ ol {
   display: none;
 }
 .list-element {
-  width: 356px;
+  min-width: 356px;
   margin: 0 auto;
 }
 .list-title {
@@ -293,7 +293,7 @@ ol {
 
 /* ==================== TEAM ==================== */
 .team .container {
-  width: 294px;
+  min-width: 294px;
 }
 .team {
   background-color: #f4f4fd;
@@ -387,7 +387,7 @@ ol {
 }
 
 .customers-item {
-  width: 190px;
+  min-width: 190px;
   height: 88px;
   margin-bottom: 72px;
 }
@@ -451,7 +451,7 @@ ol {
   margin: 0 auto;
   margin-top: 16px;
   margin-bottom: 72px;
-  width: 269px;
+  min-width: 269px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
@@ -529,7 +529,7 @@ ol {
 }
 .footer-btn {
   position: relative;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: inline-block;
   background-color: var(--brand-color);
@@ -706,7 +706,7 @@ ol {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  min-width: 408px;
   min-height: 576px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -820,7 +820,7 @@ ol {
   font-size: 12px;
   line-height: 1.33em;
   resize: none;
-  width: 360px;
+  min-width: 360px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   background-color: transparent;

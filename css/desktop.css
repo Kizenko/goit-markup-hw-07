@@ -28,6 +28,19 @@
     background-position: center;
     margin-bottom: 8px;
   }
+  /* ========== HERO ========== */
+  .hero {
+    background-image: var(--gradient), url(../images/office.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--gradient), url("../images/office@2x.jpg");
+    }
+  }
+
+  /* ========== /HERO ========== */
   .icon-antenna::before {
     background-image: url("../images/antenna.svg");
   }

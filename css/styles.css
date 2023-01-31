@@ -5,6 +5,7 @@
   --background-color: #ffffff;
   --animation-duration: 250ms;
   --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 html {
   box-sizing: border-box;
@@ -169,13 +170,16 @@ ol {
   padding-bottom: 188px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/office.jpg);
+  background-image: var(--gradient), url(../images/office-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--gradient), url("../images/office-mob@2x.jpg");
+  }
 }
 .hero .container {
   text-align: center;

@@ -243,7 +243,7 @@ ol {
   display: none;
 }
 .list-element {
-  min-width: 356px;
+  width: 356px;
   margin: 0 auto;
 }
 .list-title {

@@ -3,6 +3,9 @@
     width: 768px;
     /* outline: 2px solid red; */
   }
+  .team {
+    padding-bottom: 104px;
+  }
   .team .container {
     width: 582px;
   }
@@ -14,9 +17,7 @@
   .list-element {
     width: 356px;
   }
-  .list-text {
-    margin-bottom: 72px;
-  }
+
   .icon-diagram .list-text {
     margin-bottom: 0px;
   }
@@ -27,16 +28,21 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 64px;
   }
   .teammate {
     margin-top: 0px;
   }
+  .team-title {
+    margin-bottom: 72px;
+  }
   .customers-list {
     gap: 24px;
+    row-gap: 72px;
   }
   .customers-item {
     width: 168px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
   }
   .customers-item:nth-child(2n) {
     margin-left: 0px;
@@ -75,7 +81,7 @@
   }
   .contact-mail,
   .contact-tel {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
     line-height: 1.33em;
     color: #434455;
@@ -115,10 +121,14 @@
   .footer-block-top {
     display: flex;
   }
+  .footer-block-top {
+    margin-bottom: 72px;
+  }
   .footer-block-logo {
     text-align: left;
     margin-right: 24px;
     margin-left: 94px;
+    margin-bottom: 0;
   }
   .footer .logo {
     margin-bottom: 16px;
@@ -128,6 +138,7 @@
   }
   .footer-media {
     text-align: left;
+    margin-bottom: 0;
   }
   .media-list {
     justify-content: start;

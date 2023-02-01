@@ -15,7 +15,6 @@
   }
   .list-text {
     font-weight: 400;
-    margin-bottom: 0;
   }
   .list-element::before {
     display: block;
@@ -64,6 +63,11 @@
     gap: 40px;
     line-height: 1.5em;
   }
+  .contact-mail,
+  .contact-tel {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
   .menu-item {
     padding-top: 24px;
     padding-bottom: 28px;
@@ -72,6 +76,9 @@
     display: block;
   }
   /* FOOTER */
+  .footer {
+    padding-bottom: 0;
+  }
   .footer .container {
     display: flex;
   }

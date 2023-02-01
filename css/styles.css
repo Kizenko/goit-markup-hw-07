@@ -73,8 +73,8 @@ ol {
   border-color: transparent;
   margin-left: auto;
   padding: 0;
-  stroke: #2e2f42;
-  fill: #2e2f42;
+  /* stroke: #2e2f42;
+  fill: #2e2f42; */
 }
 
 /* ==================== HEADER ==================== */

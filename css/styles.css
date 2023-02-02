@@ -80,8 +80,8 @@ ol {
 /* ==================== HEADER ==================== */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .main-nav {
@@ -168,7 +168,7 @@ ol {
   display: flex;
   align-items: center;
   max-width: 1440px;
-  height: 600px;
+  /* height: 600px; */
   background-color: var(--headings-text-color);
   padding-top: 112px;
   padding-bottom: 112px;
@@ -251,6 +251,9 @@ ol {
   margin: 0 auto;
   margin-bottom: 72px;
 }
+.list-element:last-child {
+  margin-bottom: 0px;
+}
 .list-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -325,15 +328,18 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--headings-text-color);
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 .teammate {
   width: 264px;
-  margin-top: 72px;
+  margin-bottom: 72px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.teammate:last-child {
+  margin-bottom: 0px;
 }
 .teammate-name {
   margin-top: 32px;
@@ -456,6 +462,9 @@ ol {
 .footer-studio {
   color: #f4f4fd;
 }
+.footer-block-top {
+  margin-bottom: 72px;
+}
 .footer-block-logo {
   margin-bottom: 72px;
 }
@@ -473,7 +482,7 @@ ol {
 .footer-media {
   /* text-align: start; */
   /* margin-left: 120px; */
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .media-title {
   font-family: "Roboto", sans-serif;

@@ -17,7 +17,9 @@
   .list-element {
     width: 356px;
   }
-
+  .list-element + .icon-diagram {
+    margin-bottom: 0px;
+  }
   .icon-diagram .list-text {
     margin-bottom: 0px;
   }
@@ -32,6 +34,7 @@
   }
   .teammate {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   .team-title {
     margin-bottom: 72px;
@@ -105,6 +108,9 @@
   }
   /* ========== HERO ========== */
   .hero {
+    height: 436px;
+  }
+  .hero {
     background-image: var(--gradient), url(../images/office-tab.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -118,6 +124,10 @@
   /* ========== /HERO ========== */
 
   /* ========== FOOTER ========== */
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .footer-block-top {
     display: flex;
   }
@@ -149,6 +159,7 @@
   }
   .email-input {
     width: 264px;
+    margin-bottom: 0;
   }
   /* ========== /FOOTER ========== */
 }
